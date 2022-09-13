@@ -1,4 +1,4 @@
 CREATE TABLE ITEM (
-	item_id VARCHAR(5),
-	price NUMBER(5,2)
+	ITEM_ID VARCHAR(5),
+	PRICE NUMBER(5,2)
 );
