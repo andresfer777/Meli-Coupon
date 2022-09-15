@@ -14,6 +14,6 @@ import com.meli.cupon.model.entity.ItemEntity;
 public interface ItemRepository extends JpaRepository<ItemEntity, String>{
 
 	@Query("SELECT i FROM ItemEntity i WHERE i.itemId IN :itemIds ORDER BY i.price ASC")
-	List<ItemEntity> obtenerItemsOrdenados(@Param("itemIds") List<String> itemIds);
+	List<ItemEntity> obtenerItems(@Param("itemIds") List<String> itemIds);
 	
 }

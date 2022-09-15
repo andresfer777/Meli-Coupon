@@ -3,6 +3,9 @@ package com.meli.cupon.model.dto;
 import java.io.Serializable;
 
 public class ItemDto implements Serializable, Comparable<ItemDto>{
+
+	private static final long serialVersionUID = 3532575130857157241L;
+
 	private String itemId;
 	
 	private Double price;
